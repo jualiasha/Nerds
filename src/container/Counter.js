@@ -1,7 +1,7 @@
-import React from "react";
-import Button from "../Button.jsx";
-import { connect } from "react-redux";
-import * as actionTypes from "../actions/actions";
+import React from 'react';
+import Button from '../Button.jsx';
+import { connect } from 'react-redux';
+import * as actionTypes from '../actions/actions';
 
 const Counter = ({
   ctr,
@@ -17,14 +17,20 @@ const Counter = ({
   return (
     <div>
       <h1>Your score is: {ctr}</h1>
-      <div className="counter-buttons">
-        <Button click={onIncCounter} variant="purple">Increment</Button>
+      <div className='counter-buttons'>
+        <Button click={onIncCounter} variant='purple'>
+          Increment
+        </Button>
         <Button click={onDecCounter}>Decrement</Button>
         <Button click={onAdd5Counter}>Add5</Button>
         <Button click={onSubstract5Counter}>Substract5</Button>
-        <Button click={onResetCounter}>Reset</Button>
+        <Button variant='red' click={onResetCounter}>
+          Reset
+        </Button>
       </div>
-      <Button click={onShowResults}>Store the Results</Button>
+      <Button variant='green' click={onShowResults}>
+        Store the Results
+      </Button>
 
       <ul>
         {storeResults.map((result) => {
