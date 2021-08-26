@@ -20,8 +20,8 @@ const Counter = ({
       <div className="counter-buttons">
         <Button click={onIncCounter} variant="purple">Increment</Button>
         <Button click={onDecCounter}>Decrement</Button>
-        <Button click={onAdd5Counter}>Add5</Button>
-        <Button click={onSubstract5Counter}>Substract5</Button>
+        <Button click={onAdd5Counter} variant="blue">Add5</Button>
+        <Button click={onSubstract5Counter} variant="cyan">Substract5</Button>
         <Button click={onResetCounter}>Reset</Button>
       </div>
       <Button click={onShowResults}>Store the Results</Button>
