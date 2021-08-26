@@ -18,7 +18,7 @@ const Counter = ({
     <div>
       <h1>Your score is: {ctr}</h1>
       <div className="counter-buttons">
-        <Button click={onIncCounter}>Increment</Button>
+        <Button click={onIncCounter} variant="purple">Increment</Button>
         <Button click={onDecCounter}>Decrement</Button>
         <Button click={onAdd5Counter}>Add5</Button>
         <Button click={onSubstract5Counter}>Substract5</Button>
