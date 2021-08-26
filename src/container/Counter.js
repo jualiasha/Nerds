@@ -22,11 +22,9 @@ const Counter = ({
           Increment
         </Button>
         <Button click={onDecCounter}>Decrement</Button>
-        <Button click={onAdd5Counter}>Add5</Button>
-        <Button click={onSubstract5Counter}>Substract5</Button>
-        <Button variant='red' click={onResetCounter}>
-          Reset
-        </Button>
+        <Button click={onAdd5Counter} variant="blue">Add5</Button>
+        <Button click={onSubstract5Counter} variant="cyan">Substract5</Button>
+        <Button click={onResetCounter}>Reset</Button>
       </div>
       <Button variant='green' click={onShowResults}>
         Store the Results
