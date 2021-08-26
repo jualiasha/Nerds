@@ -1,14 +1,11 @@
 .app {
   text-align: center;
-  background-color: yellow;
+  background-color: rgb(251, 191, 191);
   padding: 2rem;
   height: 100vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .purple {
   background-color: purple;
@@ -32,22 +29,20 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.blue {
+  background-color: #88baff;
+  padding: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cyan {
+  background-color: #bce6e8;
+  padding: 0.5rem;
+}
+
+.from_anh_3 {
+  background-color: red;
 }
